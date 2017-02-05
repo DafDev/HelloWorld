@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HelloDaf</string>
+    <string name="hello">Hello World! What\'s up!!</string>
+    <string name="login">Login: </string>
+    <string name="quit">QUIT</string>
+    <string name="info">Information</string>
+    <string name="auth">Authentication</string>
+    <string name="hour">Hour: </string>
+</resources>

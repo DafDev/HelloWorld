@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image_sportgirl"
+        android:src="@drawable/sportgirl"
+        android:layout_width="140dp"
+        android:layout_height="215dp" />
+    <TimePicker
+        android:id="@+id/timepicker_theHour"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:timePickerMode="spinner"
+        android:layout_weight="0.57" />
+    <include
+        android:id="@+id/layout_info"
+        layout="@layout/info_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <Button
+        android:id="@+id/button_quit"
+        android:text="@string/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
