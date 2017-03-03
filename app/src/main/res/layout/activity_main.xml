@@ -21,14 +21,14 @@
 
     <EditText
         android:id="@+id/edit_login"
-        android:layout_width="match_parent"
+        android:layout_width="308dp"
         android:layout_height="wrap_content"
         android:inputType="text" />
 
     <ImageView
         android:id="@+id/image_purpleHairGirl"
         android:src="@drawable/purplehairgirl"
-        android:layout_width="214dp"
+        android:layout_width="260dp"
         android:layout_height="215dp" />
     <TimePicker
         android:id="@+id/timepicker_theHour"
@@ -37,7 +37,7 @@
         android:timePickerMode="spinner"
         android:layout_weight="0.57" />
     <include
-        android:id="@+id/layout_info"
+        android:id="@+id/layout_info_in_main"
         layout="@layout/info_layout"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
