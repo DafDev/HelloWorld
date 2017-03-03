@@ -9,7 +9,8 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.afahd.helloworld.AuthentificationActivity">
+    tools:context="com.example.afahd.helloworld.AuthentificationActivity"
+    android:weightSum="1">
 
     <TextView
         android:id="@+id/text_authentification"
@@ -25,12 +26,23 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/button_auth"
+        android:text="@string/auth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <ImageView
-        android:id="@+id/image_sportgirl_wall"
-        android:src="@drawable/sportgirl_wall"
+        android:id="@+id/image_sportgirl"
+        android:src="@drawable/sportgirl"
         android:layout_width="match_parent"
         android:layout_height="215dp"
         android:foregroundGravity="center_horizontal"
+        android:layout_weight="0.34"
         />
 </LinearLayout>
